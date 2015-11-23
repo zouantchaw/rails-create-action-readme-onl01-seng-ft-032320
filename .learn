@@ -1,0 +1,10 @@
+tags:
+  - ActiveRecord
+  - create action
+  - models
+  - params hash
+  - redirects
+languages:
+  - ruby
+type: 
+  - readme
