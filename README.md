@@ -31,3 +31,5 @@ but we got a rails error. why? because at the end of the posts#create, we left n
 redirect_to helper method in a controller.
 
 lets use post_path(@post) to redirect to the newly created post. And we're all good.
+
+<a href='https://learn.co/lessons/rails-create-action-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
