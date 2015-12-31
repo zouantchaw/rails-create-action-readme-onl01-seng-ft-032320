@@ -21,14 +21,6 @@ describe 'navigate' do
   end
 end
 
-describe 'index page' do
-  it 'links to post page' do
-    second_post = Post.create(title: "My Title", description: "My post description")
-    visit posts_path
-    expect(page).to have_link(second_post.title, href: post_path(second_post))
-  end
-end
-
 describe 'form' do
   it 'shows a new form that submits content and redirects and prints out params' do
     visit new_post_path
