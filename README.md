@@ -2,7 +2,7 @@
 
 So we have a form that can accept data and then print out the the values to the screen, that's great for learning how forms work in Rails, however in a real life application we'll most likely want to add the data as a new record in the database. In the `CRUD` lifecycle, this is where the `C` comes in and we `create` a new record.
 
-Before implementing this functionality, let's first open up a Rails console session and create a record manually (you can follow along with this [code repo](https://github.com/jordanhudgens/blog-flash)):
+Before implementing this functionality, let's first open up a Rails console session and create a record manually:
 
 ```
 post = Post.new
