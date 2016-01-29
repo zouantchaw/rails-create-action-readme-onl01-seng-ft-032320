@@ -79,5 +79,5 @@ In this `create` action I'm following the standard convention of redirecting to 
 
 So everything is working and now users are able to create records in the database using the HTML form and  automatically be redirected to a `show` page where they can see the data that they entered in. There are a number of refactors that we will implement in the future, such as `strong parameters`, `error handling`, and tasks such as that, but we'll leave for a future lesson.
 
-<a href='https://learn.co/lessons/rails-create-action-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-create-action-readme' title='Create Action'>Create Action</a> on Learn.co and start learning to code for free.</p>
 <a href='https://learn.co/lessons/rails-create-action-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
