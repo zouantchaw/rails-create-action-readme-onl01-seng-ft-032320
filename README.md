@@ -18,7 +18,7 @@ SQL (0.3ms)  INSERT INTO "posts" ("title", "description", "created_at", "updated
 => true
 ```
 
-As you can see, the `save` method generates a SQL script that inserts a new record into the database, passing each of the `Post` object's attributes into the statement. At a high level, this is what the `create` method in our `PostsController` will be doing.
+As you can see, the `save` method generates a SQL script that inserts a new record into the database. Each of the `Post` object's attributes is passed into the SQL statement, and the method returns `true` upon a successful save. At a high level, this is what the `create` method in our `PostsController` will be doing.
 
 Open up the `posts_controller.rb` file. Let's do a few things to replicate the behavior we had in the console:
 
