@@ -1,6 +1,6 @@
 # Create Action
 
-Let's take a deeper look at how the Rails forms we've been creating actually function. In this lesson, we'll code a `create` action that saves a new `Post` object and then redirects to the newly-created post's `show` page. Before implementing this functionality, let's first open up a Rails console session and create a record manually:
+Let's take a deeper look at how the Rails forms we've been creating actually function. In this lesson, we'll code a `create` action — '**C**' in the '**CRUD**' life cycle — that saves a new `Post` object and then redirects to the newly-created post's `show` page. Before implementing this functionality, let's first open up a Rails console session and create a record manually:
 
 ```ruby
 post = Post.new
